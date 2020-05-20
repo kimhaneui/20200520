@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fffff"
     android:orientation="vertical"
+    android:padding="20dp"
     tools:context=".MainActivity">
 
     <ImageView
@@ -14,10 +16,10 @@
         android:src="@drawable/logo"/>
 
     <TextView
+        android:layout_marginTop="30dp"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="아이디"
-    android:textSize="20sp"/>
+    android:text="아이디"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -25,10 +27,10 @@
         android:hint="이메일 양식으로 입력하세요" />
 
     <TextView
+        android:layout_marginTop="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="비밀번호"
-        android:textSize="20sp"/>
+        android:text="비밀번호" />
 
     <EditText
         android:layout_width="match_parent"
@@ -36,10 +38,6 @@
         android:hint="비밀번호을 입력하세요"
         android:inputType="textPassword"/>
 
-    <ImageButton
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@mipmap/ic_launcher"/>
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
